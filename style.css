@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+/* PAGE 1 */
+.page-one {
+    background: linear-gradient(135deg, #ff9ddb, #ff7cb4, #ff5899);
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.center-box {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.soft-text { font-size: 19px; opacity: 0.9; margin-top: -10px; }
+
+.btn {
+    margin-top: 25px;
+    background: #fff;
+    color: #ff3d8f;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn:hover { background: #ffe2f4; }
+
+/* Floating Balloons */
+.balloons {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('balloons.png') repeat;
+    animation: float 8s linear infinite;
+}
+@keyframes float {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -800px; }
+}
+
+/* PAGE 2 */
+.page-two {
+    background: linear-gradient(135deg, #f8a9ff, #ff6fb3);
+    text-align: center;
+    padding-top: 60px;
+}
+
+.cake-container {
+    animation: bounce 2s infinite;
+}
+.cake {
+    width: 220px;
+}
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+.poem-box {
+    width: 80%;
+    margin: 40px auto;
+    background: rgba(255,255,255,0.18);
+    backdrop-filter: blur(8px);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.poem-box p {
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+.ending {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 22px;
+}
