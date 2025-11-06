@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nervi’s Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-two">
+
+<div class="cake-container">
+    <img src="cake.png" class="cake" alt="Cake">
+</div>
+
+<div class="poem-box">
+    <h2>Happy Birthday, Nervi 🎀</h2>
+
+    <p>
+    Teri muskaan se saje har subah,<br>
+    Teri baaton mein mehka har pal...<br><br>
+
+    Tu chaand si komal, dil-se narm...<br>
+    aur main bas tera aasmaan ban’na chahta hun.<br><br>
+
+    Dua hai ke zindagi tere kadmo mein phool bichaye,<br>
+    khushiyan tere aas-paas ghoome...<br>
+    Aur main, har saans ke saath,<br>
+    tujhe aur zyada chahta rahu.
+    </p>
+
+    <p class="ending">With Love, Your Darling — SP 🤍</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
